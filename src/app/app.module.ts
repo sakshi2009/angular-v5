@@ -11,7 +11,6 @@ import { RouterModule } from '@angular/router';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
-import { ShppingComponent } from './shipping/shpping.component';
 
 @NgModule({
   imports: [BrowserModule,
@@ -30,8 +29,7 @@ import { ShppingComponent } from './shipping/shpping.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    CartComponent,
-    ShppingComponent
+    CartComponent
   ],
   bootstrap: [AppComponent]
 })
