@@ -1,11 +1,11 @@
-import { HttpClient } from '@angular/common/http';
+
 import { Injectable } from '@angular/core';
 import { Product } from './products';
 
 @Injectable({ providedIn: 'root' })
 export class CartService {
   items: Product[] = [];
-  constructor(private http: HttpClient) {  
+  constructor() {  
   }
   addToCartS(product: Product) {
     this.items.push(product);
